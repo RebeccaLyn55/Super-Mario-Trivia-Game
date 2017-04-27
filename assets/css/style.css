@@ -1,0 +1,150 @@
+body{
+	background-image: url('../images/smw.png');
+}
+
+#main{
+	position:relative;
+	top:40px;
+	margin:auto;
+	width:700px;
+	height:400px;
+	background-image: url('../images/brick5.png');
+	background-color:#4d4dff;
+	border: solid;
+}
+
+
+#logo{
+	float:left;
+	margin:auto;
+	width:300px;
+}
+
+#logo-two{
+	height:50px;
+	width:200px;
+	margin-left:50px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#counter{
+	margin-left:350px;
+	margin-top:5px;
+	width:1000px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#question{
+	position:relative;
+	top:25px;
+	margin:auto;
+	width:600px;
+	height:50px;
+	padding-top:15px;
+	background-color:#ff6666;
+	text-align:center;
+	font-family: 'Press Start 2P', cursive;
+	margin-top:15px;
+	margin-bottom:30px;
+	border:dotted;
+}
+
+#container-left{
+	float:left;
+	width:350px;
+}
+
+#container-right{
+	float:left;
+	width:350px;
+}
+
+#answerone, #answertwo, #answerthree, #answerfour{
+	margin:50px;
+	width:200px;
+	height:50px;
+	padding-top:16px;
+	background-color:#FFDAB9;
+	text-align:center;
+	font-family: 'Press Start 2P', cursive;
+	border:dotted;
+	margin-left:74px;	
+}
+
+#start-over{
+	position:relative;
+	top:100px;
+	margin:auto;
+	width:200px;
+	height:50px;
+	padding-top:20px;
+	background-color:#FFDAB9;
+	text-align:center;
+	font-family: 'Press Start 2P', cursive;
+	border:dotted;
+}
+
+#wins-losses{
+	position:relative;
+	top:75px;
+	margin:auto;
+	text-align:center;
+	width:200px;
+	height:100px;
+	padding:50px;
+	background-color:#FFDAB9;
+	font-family: 'Press Start 2P', cursive;
+	border:dotted;
+}
+
+#winsandloss{
+	margin:auto;
+	text-align:center;
+	width:200px;
+	backround-color:white;
+}
+
+#answerone:hover { 
+    opacity:0.5;
+	cursor: crosshair;
+}
+
+#answertwo:hover { 
+    opacity:0.5;
+	cursor: crosshair;
+}
+
+#answerthree:hover { 
+    opacity:0.5;
+	cursor: crosshair;
+}
+
+#answerfour:hover { 
+    opacity:0.5;
+	cursor: crosshair;
+}
+
+.right-wrong{
+	position:relative;
+	top:60px;
+	background-color:#FFDAB9;
+	margin:auto;
+	width:400px;
+	height:50px;
+	text-align:center;
+	font-size:20px;
+	font-family: 'Press Start 2P', cursive;
+	padding-top:10px;
+	border:dotted;
+}
+
+.answer-picture{
+	position:relative;
+	top:125px;
+	left:265px;
+	margin:auto;
+	width:175px;
+	height:175px;
+	background-color:#FFDAB9;
+	border:dotted;
+}
